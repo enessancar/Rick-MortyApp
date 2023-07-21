@@ -9,6 +9,7 @@ import UIKit
 
 final class RMTabBarController: UITabBarController {
     
+    //MARK: - Lifecycle
     override func viewDidLoad() {
         setupTabs()
     }
@@ -22,7 +23,7 @@ final class RMTabBarController: UITabBarController {
         ]
     }
     
-    fileprivate func createNavController(for viewController: UIViewController, title: String, imageName: String) -> UIViewController {
+    private func createNavController(for viewController: UIViewController, title: String, imageName: String) -> UIViewController {
         
         let navController = UINavigationController(rootViewController: viewController)
         navController.navigationBar.prefersLargeTitles = true
