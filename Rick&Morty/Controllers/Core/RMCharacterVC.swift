@@ -6,15 +6,22 @@
 //
 
 import UIKit
+import SnapKit
 
 final class RMCharacterVC: UIViewController {
     
+    private let characterListView = RMCharacterListView()
+    
     override func viewDidLoad() {
-         super.viewDidLoad()
+        super.viewDidLoad()
+        setupView()
+    }
+    
+    private func setupView() {
+        view.addSubviews(characterListView)
         
-        let request = RMRequest(endpoint: .character,
-        queryParameters: [
-            URLQueryItem(name: "name", value: "rick")
-        ])
+        characterListView.snp.makeConstraints { make in
+            make.leading.trailing.bottom.top.equalTo(view.safeAreaLayoutGuide)
+        }
     }
 }
