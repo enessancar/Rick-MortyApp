@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ECDB4D482A6C225D00DC7A4F /* RMCharacterCollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDB4D472A6C225D00DC7A4F /* RMCharacterCollectionViewCellViewModel.swift */; };
 		ECF32A9D2A6A5CE60050B887 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF32A9C2A6A5CE60050B887 /* AppDelegate.swift */; };
 		ECF32A9F2A6A5CE60050B887 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF32A9E2A6A5CE60050B887 /* SceneDelegate.swift */; };
 		ECF32AA62A6A5CE70050B887 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF32AA52A6A5CE70050B887 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ECDB4D472A6C225D00DC7A4F /* RMCharacterCollectionViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterCollectionViewCellViewModel.swift; sourceTree = "<group>"; };
 		ECF32A992A6A5CE60050B887 /* Rick&Morty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rick&Morty.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF32A9C2A6A5CE60050B887 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECF32A9E2A6A5CE60050B887 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				ECF32ADA2A6BD1370050B887 /* RMCharacterListViewViewModel.swift */,
+				ECDB4D472A6C225D00DC7A4F /* RMCharacterCollectionViewCellViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				ECF32ACE2A6A85430050B887 /* RMRequest.swift in Sources */,
 				ECF32ADB2A6BD1370050B887 /* RMCharacterListViewViewModel.swift in Sources */,
 				ECF32AD92A6B33EA0050B887 /* RMgetAllCharacterResponse.swift in Sources */,
+				ECDB4D482A6C225D00DC7A4F /* RMCharacterCollectionViewCellViewModel.swift in Sources */,
 				ECF32ABC2A6A61510050B887 /* RMCharacter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
