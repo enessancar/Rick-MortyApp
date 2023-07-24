@@ -9,18 +9,16 @@ import Foundation
 
 struct RMGetAllCharactersResponse: Decodable {
     
-    let info: Info
-    let results: [RMCharacter]
-    
-    struct Info: Codable {
+    struct Info: Decodable {
         let count: Int
         let pages: Int
         let next: String?
         let prev: String?
     }
+    
+    let info: Info
+    let results: [RMCharacter]
 }
-
-
 
 
 
